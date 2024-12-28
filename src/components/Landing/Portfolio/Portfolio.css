@@ -1,0 +1,43 @@
+.mainPortfolioCont{ 
+width: 100vw;
+height: fit-content;
+background-color: white;
+}
+.imagePortC{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+     
+}
+.imagePort{
+    width: 45vw;
+    height: auto;
+    justify-content: space-between;
+    padding-top: 1.5rem  ;
+
+}
+.mainTitleDiv{
+    width: 45vw;
+    height: auto;
+    justify-content: space-between;
+    
+}
+
+.imagePortS{
+    width: 200px;
+    height: auto;
+    
+    
+}
+.portSvg{
+    width: 40%;
+    height: auto;
+    margin: 2vw;
+    padding-top: 1rem;
+}
+.seeMoreSvg{
+   margin: 2rem auto; 
+   cursor: pointer;
+
+}
+ 

@@ -1,0 +1,185 @@
+.PosCont{
+    position: relative;
+    width: 100vw;
+    height: fit-content;
+    padding: 4rem 0  0 0;
+}
+
+.posGra1{
+    
+
+position: absolute;
+width: 15rem;
+height: 290px;
+left: 5vw;
+top: 36px;
+
+background: #2845DE;
+opacity: 0.5;
+filter: blur(85px);
+
+}
+.posGra2{
+    
+
+    position: absolute;
+    width: 15rem;
+    height: 290px;
+    right: 5vw;
+    top: 36px;
+    
+    background: #2845DE;
+    opacity: 0.5;
+    filter: blur(85px);
+    
+    }
+.star{
+    width: 90vw;
+     display: flex;
+    /* margin: 0 5vw 2rem 0; */
+}
+.mainPosib{
+position: relative;
+overflow: hidden;
+width: 80%;
+height: 320px;
+margin: auto;
+
+/* background: radial-gradient(48% 48% at 7% 12%, rgba(219, 124, 126, 0.6) 0%, rgba(235, 29, 253, 0) 100%)  , radial-gradient(21% 21% at 14% 87%, rgba(91, 241, 251, 0.498) 0%, rgba(63, 232, 255, 0) 84.22%)  , radial-gradient(15% 63% at 91% 78%, rgba(238, 91, 251, 0.6) 0%, rgba(235, 29, 253, 0) 100%) , #913DEA; */
+border-radius: 245px;
+background: radial-gradient(48% 48% at 7% 12%, rgba(219, 124, 126, 0.6) 0%, rgba(235, 29, 253, 0) 100%)  , radial-gradient(21% 21% at 14% 87%, rgba(91, 241, 251, 0.498) 0%, rgba(63, 232, 255, 0) 84.22%)  , radial-gradient(15% 63% at 91% 78%, rgba(238, 91, 251, 0.6) 0%, rgba(235, 29, 253, 0) 100%) , #913DEA;
+
+}
+.PosibImgCont{
+    position: relative;
+    width: fit-content;
+    height: 100%;
+overflow: hidden;
+margin: auto;
+    /* background-color: #FFFFFF; */
+
+}
+.textPosib1{
+    position: absolute;
+    width: fit-content;
+    left: 4vw ;
+    top: 1vw;
+}
+
+.textPosib1Svg{
+    width: 230px;
+    height: auto;
+}
+.textPosib2Svg{
+    width: auto;
+    height: 310px;
+}
+.textPosib2{
+    position: absolute;
+    width: fit-content;
+    height: 310px;
+    top: 10px;
+    right: 5px;
+    /* background-color: #913DEA; */
+}
+ 
+.posImg{
+    width: fit-content;
+    height: 100%;
+    margin: auto;
+
+}
+
+.line{
+    width: 100vw;
+    margin: auto;
+    padding: 2rem 3vw;
+    display: flex;
+    /* background-color: aquamarine; */
+}
+.lineDraw{
+     width: 40vw;
+     padding-left: 1rem;
+     height: 104px;
+}
+.lineText{
+    width: 50vw;
+    font-size: 2rem;
+    color: white;
+    line-height: 45px;
+    margin: auto;
+}
+@media only screen and (max-width: 500px) {
+    .mainPosib{
+        width: 90%;
+        height: 200px; 
+    }
+    .textPosib1{
+        /* width: 120px;
+        left: 3vw;
+        top: 10px; */
+        visibility: hidden;
+    }
+    .textPosib2{
+        visibility: hidden;
+    }
+    /* .textPosib1Svg{
+        width: 120px;
+    } */
+     /* .textPosib2Svg{
+        height: 180px;
+    } */
+    .line{
+        /* padding: 1rem 0; */
+        flex-direction: column;
+    } 
+    .lineDraw{
+        width: 100vw;
+        height: 80px;
+        margin: 10px 0;
+    }
+    .lineText{
+        width: 90vw;
+        font-size: 1.7rem;
+    }
+}
+
+@media only screen and (min-width:500px) and (max-width: 900px) {
+    .mainPosib{
+        /* overflow: hidden; */
+        width: 92%;
+        height: 260px; 
+        /* margin: auto; */
+        /* background: radial-gradient(48% 48% at 7% 12%, rgba(219, 124, 126, 0.6) 0%, rgba(235, 29, 253, 0) 100%)  , radial-gradient(21% 21% at 14% 87%, rgba(91, 241, 251, 0.498) 0%, rgba(63, 232, 255, 0) 84.22%)  , radial-gradient(15% 63% at 91% 78%, rgba(238, 91, 251, 0.6) 0%, rgba(235, 29, 253, 0) 100%) , #913DEA; */
+        /* border-radius: 245px; */
+        
+        }
+
+        /* .textPosib2{
+            visibility: hidden;
+        } */
+        /* .textPosib1Svg{
+            width: 120px;
+        } */
+        .textPosib2{
+            top: 22px;
+        }
+         .textPosib2Svg{
+            /* top: 40px; */
+            height: 220px;
+        }
+
+        .line{
+            /* padding: 1rem 0; */
+            flex-direction: column;
+        } 
+        .lineDraw{
+            width: 100vw;
+            height: 80px;
+            margin: 15px 0;
+        }
+        .lineText{
+            width: 90vw;
+            font-size: 1.9rem;
+        }
+}

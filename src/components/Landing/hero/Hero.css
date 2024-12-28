@@ -1,0 +1,278 @@
+.HContainer{
+    /* position: relative; */
+    width: 100vw;
+    padding-bottom: 2rem;
+    height: fit-content;
+    background-color: white;
+}
+
+/* Navbar Start */
+.heroGra1{
+    position: absolute;
+    width: 5rem;
+    height: 100%;
+    left: 2vw;
+    top: -10px;
+
+    background: #df1082;
+    opacity: 0.5;
+    filter: blur(45px);
+}
+.heroGra2{
+    position: absolute;
+    width: 5rem;
+    height: 100%;
+    left: 30vw;
+    top: -10px;
+
+    background: #4228d1;
+    opacity: 0.7;
+    filter: blur(65px);
+}
+.heroGra3{
+    position: absolute;
+    width: 8rem;
+    height: 100%;
+    right: -1vw;
+    top: 30px;
+
+    background: #e70f86;
+    opacity: 0.5;
+    filter: blur(65px);
+}
+.Navbar{
+    display: flex;
+    width: 90vw;
+    margin: 2rem auto 0 auto;
+    /* padding: 1.5rem 0 .5rem 3rem; */
+    justify-content: space-between;
+    /* font-weight: 300; */
+    /* background-color: #33DAFF; */
+}
+.logoh1{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.logoh2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #9933FF;
+
+}
+.MenuCont{
+    width: 70px;
+    height: auto;
+    padding-right: 50px;
+    background-color: white;
+    border: 1px solid rgb(252, 248, 248);
+    border-radius: 10px;
+}
+
+.MenuCont:hover{
+    width: 70px;
+    height: auto;
+    padding-right: 50px;
+    background-color: white;
+    border: 1px solid rgb(252, 248, 248);
+    border-radius: 10px;
+    scale: 1.1;
+}
+
+.NavMunu{
+    color: black;
+    width: 60px;
+    height: 55px;
+    cursor: pointer;
+ }
+
+ .crossCont{
+    visibility: visible;
+ }
+.cross{
+width: 33px;
+height: 32px;
+margin-top: 30px;
+}
+
+/* Navbar End */
+
+.textJack{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #4A00F8;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    text-align: center;
+    font-weight: 900;
+    /* background-color: green; */
+}
+.textMeta{
+     margin: 1rem 0 0 0;
+     position: relative;
+     display: flex;
+     overflow: visible;
+     width: 100vw;
+     background-color: white;
+}
+.metaSvg{
+    width: 70vw;
+    margin-left: 15vw;
+    /* padding-bottom: 2rem; */
+    height: auto;
+    /* max-width: 1200px; */
+    /* background-color: #9933FF; */
+}
+
+.earth1{
+    position: absolute;
+    left: 8vw;
+    top: 12.8rem;
+    width: 6vw;
+    height: 6vw;
+    border-radius: 100%;
+    background: radial-gradient(67% 67% at 65.5% 33%, #33DAFF 0%, #0D2A63 64.06%, #0D2A63 100%)  ;
+    opacity: 0.4;
+    }
+    .earth2{
+    position: absolute;
+    right: 7vw;
+    top: 18.8rem;
+
+    width: 6vw;
+    height: 6vw;
+    border-radius: 100%;
+    background: radial-gradient(67% 67% at 65.5% 33%, #33DAFF 0%, #0D2A63 64.06%, #0D2A63 100%)  ;
+    opacity: 0.7;
+    }
+.HeroBtnCont{
+    width: 100vw;
+    margin: auto;
+}
+.starCont, .starCont2{
+    width: 70vw;
+    margin: 1rem auto;
+    height: fit-content;
+    display: flex;
+
+    height: fit-content;
+    /* background-color: #2600FC; */
+    justify-content: space-between;
+    overflow: visible;
+}
+
+
+.star1Div{
+    /* position: absolute; */
+    width: 40px;
+    height: 40px;
+    /* background-color: #0D2A63; */
+}
+.star2Div{
+    width: 40px;
+    height: 40px;
+    /* background-color: #0D2A63; */
+}
+
+.btnHero{
+    width: 349px;
+    /* background-color: #c28c17; */
+}
+.btnDivHero{
+    /* position: relative; */
+    width: 349px;
+    height: 100px;
+    /* border: 1px solid; */
+    background-image: url('/btn2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(62.05deg, #2600FC 0%, #FF00EA 100%); */
+    opacity: 1;
+    /* filter: blur(5px); */
+
+    border-radius: 24px;
+    /* overflow: visible; */
+    cursor: pointer;
+    /* font-size: 24px;
+    text-align: center;
+    line-height: 100px;
+    color: white; */
+
+}
+
+
+
+.imageHeroC{
+    padding: 0 1vw;
+}
+.backImage{
+    /* position: absolute; */
+    width: 600px;
+    height: auto;
+    /* bottom: 40px; */
+    /* right: 20px; */
+    /* z-index: 0; */
+    /* background-image: url('/hbg1.png');
+    background-size: contain; */
+ }
+
+.img1Cont{
+    @apply h-auto overflow-hidden z-50;
+    min-width: fit-content;
+margin-left: 2vw;
+}
+.imageHero{
+
+    min-width: 140px;
+    width: 14vw;
+    height:auto;
+    /* padding-left: 1.5rem; */
+
+}
+
+@media only screen and (max-width: 600px) {
+    .HContainer{
+        margin-bottom: 1rem;
+    }
+    .NavMunu{
+        color: black;
+        width: 45px;
+        height: 45px;
+        cursor: pointer;
+     }
+     .crossCont,.star1Div,.star2Div{
+        width: 2px;
+     }
+    .cross{
+        visibility: hidden;
+    }
+    .textJack{
+        margin-bottom: 1rem;
+        margin-top: 0;
+    }
+    .textJack{
+        font-size: 1.4rem;
+        margin-bottom: .5rem;
+    }
+    .textMeta{
+        font-size: 3rem;
+    }
+    .earth1{
+        width: 8vw;
+        height: 8vw;
+        left: 4vw;
+    }
+    .earth2{
+        width: 8vw;
+        height: 8vw;
+        right: 4vw;
+    }
+    .starCont{
+        width: 100vw;
+    }
+    .star1, .star2{
+        visibility: hidden;
+    }
+
+  }
+

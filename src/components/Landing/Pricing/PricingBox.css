@@ -1,0 +1,467 @@
+.pricingBoxMain{
+    width:100vw;
+    height: 450px;
+    /* background-color: palegoldenrod; */
+}
+
+.pricingBoxCont{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width:100vw;
+    height: 450px;
+}
+.pricingBox{
+
+    width: 320px;
+    min-width: 300px;
+    height: fit-content;
+    background-color: white;
+    margin-left: 30px;
+
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+filter: drop-shadow(0px 2.36467px 11.8233px rgba(50, 50, 50, 0.2));
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.price{
+    /* Frame 73 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 7.69px;
+
+width: 139.69px;
+height: 58px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* $99 */
+
+width: 78px;
+height: 58px;
+
+font-family: 'Noir Pro';
+font-style: normal;
+font-weight: 900;
+font-size: 38.4318px;
+line-height: 150%;
+/* identical to box height, or 58px */
+
+color: #323232;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* /month */
+
+width: 54px;
+height: 23px;
+
+font-family: 'Noir Pro';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 150%;
+/* identical to box height, or 23px */
+
+color: #636363;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+
+ .card{
+    /* Frame 88 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 225.23px;
+height: 281.99px;
+
+filter: drop-shadow(0px 2.36467px 11.8233px rgba(50, 50, 50, 0.2));
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 86 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 18.9173px 23.6467px;
+
+width: 225.23px;
+height: 108.83px;
+
+background: #FFFFFF;
+border-bottom: 0.591167px solid rgba(0, 0, 0, 0.1);
+border-radius: 7.094px 0px 0px 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Free */
+
+width: 39px;
+height: 28px;
+
+font-family: 'Noir Pro';
+font-style: normal;
+font-weight: 500;
+font-size: 18.9173px;
+line-height: 150%;
+/* or 28px */
+
+color: #323232;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 73 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 9.46px;
+
+width: 98.46px;
+height: 43px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* $0 */
+
+width: 40px;
+height: 43px;
+
+font-family: 'Noir Pro';
+font-style: normal;
+font-weight: 900;
+font-size: 28.376px;
+line-height: 150%;
+/* identical to box height, or 43px */
+
+color: #323232;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* /month */
+
+width: 49px;
+height: 21px;
+
+font-family: 'Noir Pro';
+font-style: normal;
+font-weight: 500;
+font-size: 14.188px;
+line-height: 150%;
+/* or 21px */
+
+color: #636363;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* List */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 18.9173px;
+gap: 23.65px;
+
+width: 225.23px;
+height: 173.15px;
+
+background: #F5F5F5;
+border-radius: 0px 0px 0px 7.094px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 76 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 9.46px;
+
+width: 187.4px;
+height: 74.75px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* List Item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 9.46px;
+
+width: 187.4px;
+height: 18.92px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Check */
+
+width: 18.92px;
+height: 18.92px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 14.58%;
+right: 14.6%;
+top: 25%;
+bottom: 23.7%;
+
+background: #3D66FB;
+
+
+/* per room 20 members */
+
+width: 122px;
+height: 18px;
+
+font-family: 'Noir Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 11.8233px;
+line-height: 150%;
+/* identical to box height, or 18px */
+
+color: #636363;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* List Item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 9.46px;
+
+width: 187.4px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 0px;
+height: 18px;
+
+font-family: 'Noir Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 11.8233px;
+line-height: 150%;
+/* identical to box height, or 18px */
+
+color: #636363;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* List Item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 9.46px;
+
+width: 187.4px;
+height: 18.92px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Check */
+
+width: 18.92px;
+height: 18.92px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Text */
+
+width: 0px;
+height: 18px;
+
+font-family: 'Noir Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 11.8233px;
+line-height: 150%;
+/* identical to box height, or 18px */
+
+color: #636363;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9.45867px 14.188px;
+gap: 2.36px;
+
+width: 187.4px;
+height: 36.92px;
+
+background: rgba(77, 66, 249, 0.1);
+border: 0.591167px solid #3D66FB;
+border-radius: 4.72933px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Current Plan */
+
+width: 70px;
+height: 18px;
+
+font-family: 'Noir Pro';
+font-style: normal;
+font-weight: 500;
+font-size: 11.8233px;
+line-height: 150%;
+/* identical to box height, or 18px */
+
+color: #3D66FB;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+ }
